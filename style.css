@@ -17,14 +17,17 @@ body{
 }
 header{
     background-image: linear-gradient(to top, var(--cor0), var(--cor1), var(--cor2) );
-    height: 160px;
-    margin: -23px -20px 20px -8px;
+    height: 150px;
+    
+    margin: -24px -20px 0px -8px;
+    padding: 0px;
     text-align: center;
     color: white;
     font-family: Roboto Condensed;
 }
 header > p{
     text-align: center;
+    margin: auto;
 }
 header>h1{
     @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Condensed&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500;1,600&display=swap');
@@ -34,7 +37,7 @@ header>h1{
 }
 nav{
     text-align: left;
-    margin: auto;
+    margin: 8px;
     
 }
 nav > a{
@@ -45,6 +48,7 @@ nav > a{
     padding: 7px;
     transition-duration: 0.5s;
     border-radius: 3px;
+    margin: auto;
 }
 nav > a:hover{
     background-color: #01b972;
@@ -58,8 +62,8 @@ main{
     background-color: white;
     height: fit-content;
     max-width: 800px;
-    min-width: 300px;
-    margin: auto;
+    min-width: 320px;
+    margin: 20px auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.325);
     padding-bottom: 20px;
     border-radius: 10px;
