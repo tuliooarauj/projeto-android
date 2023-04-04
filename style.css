@@ -6,8 +6,8 @@
 }
 :root{
     --cor0: #046B00;
-    --cor1: #02B54F;
-    --cor2: #00c076;
+    --cor2: #00c656;
+    --cor1: #017d4e;
 
     --fonte-padrao: Roboto Condensed, sans-serif;
 }
@@ -17,10 +17,9 @@ body{
 }
 header{
     background-image: linear-gradient(to top, var(--cor0), var(--cor1), var(--cor2) );
-    height: 150px;
-    
+    min-height: 150px;
     margin: -24px -20px 0px -8px;
-    padding: 0px;
+    padding-top: 40px;
     text-align: center;
     color: white;
     font-family: Roboto Condensed;
@@ -28,17 +27,24 @@ header{
 header > p{
     text-align: center;
     margin: auto;
+    max-width: 500px;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
 }
 header>h1{
     @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Condensed&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500;1,600&display=swap');
-    padding-top: 20px;
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
     font-family: var(--fonte-padrao);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.415);
 }
 nav{
     text-align: left;
     margin: 8px;
-    
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.222);
 }
 nav > a{
     color: white;
@@ -47,8 +53,7 @@ nav > a{
     font-size: 15px;
     padding: 7px;
     transition-duration: 0.5s;
-    border-radius: 3px;
-    margin: auto;
+    border-radius: 5px;
 }
 nav > a:hover{
     background-color: #01b972;
